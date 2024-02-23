@@ -6,6 +6,9 @@
 - For [Medical FUSION Lab](https://wp.wpi.edu/medicalfusionlab/) use
 
 ## Installation
+    
+WSL2 user needs to follow this [tutorial](https://learn.microsoft.com/en-us/windows/wsl/connect-usb) first to enable USB device connectivity.
+
 1. install touch driver
 
     In the root folder:
