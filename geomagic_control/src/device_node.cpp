@@ -391,7 +391,7 @@ int main(int argc, char** argv) {
     // Loop and publish
     ////////////////////////////////////////////////////////////////
     int publish_rate;
-    device_ros.n.param(std::string("/publish_rate"), publish_rate, 100);
+    device_ros.n.param(std::string("/Geomagic/Geomagic/publish_rate"), publish_rate, 100);
     ROS_INFO("Publish rate set to %d", publish_rate);
     ros::Rate loop_rate(publish_rate);
     ros::AsyncSpinner spinner(2);
